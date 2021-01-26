@@ -1,0 +1,27 @@
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+#gallery {
+  display: flex;
+  list-style: none;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
